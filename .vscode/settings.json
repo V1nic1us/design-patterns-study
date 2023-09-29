@@ -1,7 +1,7 @@
 {
   "window.zoomLevel": 0,
   "code-runner.executorMap": {
-    "typescript": "clear && npx ts-node --files --transpile-only",
+    "typescript": "clear && echo '' && echo '' &&npx ts-node --files --transpile-only",
     "python": "cls && venv/bin/python"
   },
   "editor.codeActionsOnSave": {
