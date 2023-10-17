@@ -1,4 +1,5 @@
 {
+  "workbench.tree.indent": 22,
   "code-runner.executorMap": {
     "typescript": "clear && echo '' && echo '' &&npx ts-node --files --transpile-only",
     "python": "cls && venv/bin/python"
@@ -6,7 +7,5 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll": true
-  },
-  "python.pythonPath": "venv/bin/python",
-  "cSpell.enabled": true
+  }
 }
