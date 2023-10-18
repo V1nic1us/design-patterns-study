@@ -26,5 +26,9 @@
     "prettier": "^3.0.3",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/validator": "^13.11.3",
+    "validator": "^13.11.0"
   }
 }
