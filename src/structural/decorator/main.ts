@@ -1,0 +1,20 @@
+// import { ProductDecorator } from './product/product-decorator';
+import { ProductCustomizationDecorator } from './product/product-customization-decorator';
+import { ProductStampsDecorator } from './product/product-stamps-decorator';
+import { TShirt } from './product/t-shirt';
+
+const tShirt = new TShirt();
+// const decoratorTShirt = new ProductDecorator(tShirt);
+const stampedTShirt = new ProductStampsDecorator(tShirt);
+const printedTShirtAgain = new ProductStampsDecorator(stampedTShirt);
+const customTShirt = new ProductCustomizationDecorator(tShirt);
+console.log(tShirt.getName());
+console.log(tShirt.getPrice());
+// console.log(decoratorTShirt.getName());
+// console.log(decoratorTShirt.getPrice());
+console.log(stampedTShirt.getName());
+console.log(stampedTShirt.getPrice());
+console.log(printedTShirtAgain.getName());
+console.log(printedTShirtAgain.getPrice());
+console.log(customTShirt.getName());
+console.log(customTShirt.getPrice());
